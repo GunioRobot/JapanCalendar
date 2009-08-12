@@ -1,4 +1,3 @@
-(in C:/work/My Dropbox/01.ƒtƒ[/Ruby/JapanCalendar)
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
@@ -9,18 +8,18 @@ Gem::Specification.new do |s|
   s.authors = ["c-ge"]
   s.date = %q{2009-08-13}
   s.default_executable = %q{japan_calendar}
-  s.description = %q{“ú–{‚ÌƒJƒŒƒ“ƒ_[ƒNƒ‰ƒX‚Å‚·B
- ”NŒŽ‚ðŽw’è‚·‚é‚Æ‚»‚ÌŒŽ‚ÌjÕ“ú‚ª“ü‚Á‚½ƒJƒŒƒ“ƒ_[(JapanCalendar)‚ð•Ô‚µ‚Ü‚·B}
+  s.description = %q{æ—¥æœ¬ã®ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚¯ãƒ©ã‚¹ã§ã™ã€‚
+ å¹´æœˆã‚’æŒ‡å®šã™ã‚‹ã¨ãã®æœˆã®ç¥ç¥­æ—¥ãŒå…¥ã£ãŸã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼(JapanCalendar)ã‚’è¿”ã—ã¾ã™ã€‚}
   s.email = ["nashiki.shigeyuki@cyberwave.jp"]
   s.executables = ["japan_calendar"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.files = [".autotest", "History.txt", "Manifest.txt", "README.txt", "Rakefile", "bin/japan_calendar", "lib/japan_calendar.rb", "test/test_japan_calendar.rb"]
+  s.files = [".autotest", "History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/japan_calendar.rb", "test/test_japan_calendar.rb"]
   s.homepage = %q{http://github.com/c-ge/JapanCalendar}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{japan_calendar}
   s.rubygems_version = %q{1.3.3}
-  s.summary = %q{“ú–{‚ÌƒJƒŒƒ“ƒ_[ƒNƒ‰ƒX‚Å‚·B ”NŒŽ‚ðŽw’è‚·‚é‚Æ‚»‚ÌŒŽ‚ÌjÕ“ú‚ª“ü‚Á‚½ƒJƒŒƒ“ƒ_[(JapanCalendar)‚ð•Ô‚µ‚Ü‚·B}
+  s.summary = %q{æ—¥æœ¬ã®ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚¯ãƒ©ã‚¹ã§ã™ã€‚ å¹´æœˆã‚’æŒ‡å®šã™ã‚‹ã¨ãã®æœˆã®ç¥ç¥­æ—¥ãŒå…¥ã£ãŸã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼(JapanCalendar)ã‚’è¿”ã—ã¾ã™ã€‚}
   s.test_files = ["test/test_japan_calendar.rb"]
 
   if s.respond_to? :specification_version then
