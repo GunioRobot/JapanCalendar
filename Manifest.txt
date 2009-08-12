@@ -1,0 +1,8 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/japan_calendar
+lib/japan_calendar.rb
+test/test_japan_calendar.rb
