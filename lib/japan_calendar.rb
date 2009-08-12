@@ -1,10 +1,10 @@
 # = JapanCalender
-# Author::    梨木繁幸(NashikiShigeyuki)[http://cyberwave.jp/nashiki/]
+# Author::    梨木 繁幸(Nashiki Shigeyuki)[http://cyberwave.jp/nashiki/]
 # Copyright:: Copyright 2009 cyberwave.jp[http://cyberwave.jp/]
-# License::   GPL
+# License::   GPL v2
 #
 # 日本のカレンダークラスです。
-# 年月を指定するとその月のカレンダークラス(JapanCalendar)を返します。
+# 年月を指定するとその月の祝祭日が入ったカレンダー(JapanCalendar)を返します。
 #
 # === 使い方
 #   gem install japan_calendar
@@ -29,6 +29,8 @@
 #    * 初期設定では土曜日は平日扱い
 
 class JapanCalendar
+  VERSION = '1.0.0'
+
   attr_reader :year, :month
   attr_reader :holidays, :workdays, :not_holidays, :days
 
