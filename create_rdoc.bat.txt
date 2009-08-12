@@ -1,0 +1,3 @@
+cd .
+rdoc -ordoc -S -N -c UTF-8 -t "JapaneseCalendar" -m lib/*.rb lib/*.rb
+pause
