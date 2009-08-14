@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.executables = ["japan_calendar"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
   s.files = [".autotest", "History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/japan_calendar.rb", "test/test_japan_calendar.rb"]
-  s.homepage = %q{http://github.com/c-ge/JapanCalendar}
+  s.homepage = %q{http://github.com/c-ge/JapanCalendar}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{japan_calendar}
